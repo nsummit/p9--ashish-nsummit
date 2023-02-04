@@ -60,16 +60,16 @@
         <input type="radio" name="title" value="Miss" />Miss
       </label><br/>
       <label>First name
-        <input type="text" />
+        <input type="text" required/>
       </label><br/>
       <label>Last name
-        <input type="text" />
+        <input type="text" required/>
       </label><br/>
       <label>Email
-        <input type="email" />
+        <input type="email" required/>
       </label><br/>
       <label>Phone number
-        <input type="number" />
+        <input type="number" required/>
       </label><br/>
       <label>Password
         <input type="password" />
@@ -78,14 +78,14 @@
         <input type="password" />
       </label><br/>
       <label>Country
-        <select name="country">
+        <select name="country" required>
             <option value="Canada">Canada</option>
             <option value="India">India</option>
             <option value="Australia">Australia</option>
         </select>
       </label><br/>
       <label>
-        <input type="checkbox" name="terms-agreement" id="">I agree to the <a href="#" target="_blank">terms and conditionss</a>
+        <input type="checkbox" name="terms-agreement" id="" required>I agree to the <a href="#" target="_blank">terms and conditionss</a>
       </label><br/>
       <button type="submit">Submit</button>
     </form>
